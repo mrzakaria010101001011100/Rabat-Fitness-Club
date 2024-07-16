@@ -1,0 +1,126 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+}
+
+header {
+    background-color: #003366;
+    padding: 10px 20px;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('images/gym.jpg') no-repeat center center/cover;
+    color: white;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 2.5em;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #0066cc;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.featured-classes {
+    padding: 20px;
+    text-align: center;
+}
+
+.featured-classes h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.classes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.class {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    margin: 10px;
+    width: 30%;
+    text-align: left;
+}
+
+.class img {
+    width: 100%;
+    height: auto;
+}
+
+.class h3 {
+    margin: 10px;
+}
+
+.class p {
+    margin: 0 10px 10px;
+}
+
+.details-button {
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    background-color: #0066cc;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
