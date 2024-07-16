@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rabat Fitness Club</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Rabat Fitness Club</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Classes</a></li>
+                <li><a href="#">Membership</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Join Rabat's Premier Fitness Club</h2>
+            <p>Transform your life with fitness and health at Rabat Fitness Club.</p>
+            <button class="cta-button" onclick="showAlert()">Join Now</button>
+        </div>
+    </section>
+
+    <section class="featured-classes">
+        <h2>Featured Classes</h2>
+        <div class="classes">
+            <div class="class">
+                <img src="images/yoga.jpg" alt="Yoga Class">
+                <h3>Yoga</h3>
+                <p>Relax and stretch your body with our yoga classes.</p>
+                <button class="details-button" onclick="showDetails('Yoga')">Learn More</button>
+            </div>
+            <div class="class">
+                <img src="images/cardio.jpg" alt="Cardio Class">
+                <h3>Cardio</h3>
+                <p>Boost your energy and endurance with our cardio workouts.</p>
+                <button class="details-button" onclick="showDetails('Cardio')">Learn More</button>
+            </div>
+            <div class="class">
+                <img src="images/weightlifting.jpg" alt="Weightlifting Class">
+                <h3>Weightlifting</h3>
+                <p>Build strength and muscle with our weightlifting sessions.</p>
+                <button class="details-button" onclick="showDetails('Weightlifting')">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Rabat Fitness Club. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
