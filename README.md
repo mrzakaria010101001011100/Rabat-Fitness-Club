@@ -1,36 +1,37 @@
-Rabat Fitness Club
-Welcome to Rabat Fitness Club! This project aims to showcase a fictional fitness club's website.
+# Rabat Fitness Club
 
-Table of Contents
-Introduction
-Features
-Technologies Used
-Installation
-Usage
-Contributing
-License
-Introduction
-Rabat Fitness Club is a fictional fitness club based in Rabat, Morocco. This project serves as a demonstration of a responsive website for a fitness club, highlighting various classes and membership options.
+Welcome to the Rabat Fitness Club project. This is a web application designed to showcase the services and facilities of the Rabat Fitness Club. The project includes both frontend and backend functionalities to provide a complete experience for users.
 
-Features
-Responsive design for mobile and desktop views.
-Sections for home, about us, classes, membership, and contact.
-Featured classes with details and buttons to learn more.
-CTA (Call to Action) button to encourage user interaction.
-Technologies Used
-HTML5
-CSS3
-JavaScript
-Installation
-Clone the repository:
-bash
-Copier le code
-git clone https://github.com/your-username/rabat-fitness-club.git
-Navigate into the project directory:
-bash
-Copier le code
-cd rabat-fitness-club
-Open index.html in your web browser.
-Usage
-Open index.html in a web browser to view the Rabat Fitness Club website.
-Navigate through different sections using the navigation links.
+## Table of Contents
+
+- [Project Description](#project-description)
+- [Technology & Architecture](#technology--architecture)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Project Description
+
+Rabat Fitness Club is a fitness center based in Rabat, offering a variety of classes and services to help members achieve their fitness goals. The web application serves as an online platform for the club, allowing users to learn more about the club, view available classes, and get in touch for memberships.
+
+## Technology & Architecture
+
+### Frontend
+
+- **HTML**: Structure of the web pages.
+- **CSS**: Styling of the web pages.
+- **JavaScript**: Interactive elements and functionality.
+
+### Backend
+
+- **Node.js**: Runtime environment for executing JavaScript on the server.
+- **Express.js**: Web framework for building the backend API.
+- **MongoDB**: NoSQL database for storing user data and other information.
+- **Mongoose**: ODM for MongoDB to interact with the database.
+
+### Architecture
+
+The project is structured as follows:
+
